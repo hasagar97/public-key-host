@@ -1,0 +1,12 @@
+{
+  "keys": [
+    {
+      "kty": "RSA",
+      "use": "sig",
+      "alg": "RS384",
+      "n": "v1oXSkQkg_K7GupaJZgzfxwTPXzX9ut9MhwGeP3g7m5PAg-1DX8Dd801OKhybiNvrD_JlDNgeR4lSunf6rnmx8I2DhXcZfPh6mFWmYnUuVsZRdG0e0GBLT-YBwRNcQRGuoDTYSiW6s16TXMbzpHBhEExhPg-drlJ31xLI-P-UJfbpZ0WlqWsZXP1rDAwNWmt4D4jsBjDx3sRBn5AnXnxVB1Ll8pfQhw8DPTUbofD3jth6L_l6iDtC-n7bUbtycCyogyOXRBAy0Ok9t88biCGDviNzg_TNEUClwkQ2TptOp1FTHCCMv6FeyrSMqWT0VbC7rq3Dp1H7wkk47cnLAwWkw",
+      "e": "AQAB",
+      "kid": "epic-2026-key-01"
+    }
+  ]
+}
