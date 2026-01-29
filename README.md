@@ -13,6 +13,8 @@ public-key-host/
 ├── index.html          # Main page listing available keys
 ├── keys/              # Directory containing public keys
 │   └── ssh-rsa.pub   # SSH RSA public key
+├── jwks/              # Directory containing JWKS files
+│   └── epic.json     # JWKS JSON file
 ├── .nojekyll         # Ensures GitHub Pages serves files correctly
 └── README.md         # This file
 ```
@@ -39,17 +41,25 @@ chmod 600 ~/.ssh/authorized_keys
 ### Download a Key
 
 ```bash
-# Download to current directory
+# Download SSH key to current directory
 curl -O https://hasagar97.github.io/public-key-host/keys/ssh-rsa.pub
+
+# Download JWKS JSON to current directory
+curl -O https://hasagar97.github.io/public-key-host/jwks/epic.json
 
 # Download with custom name
 curl -o my-key.pub https://hasagar97.github.io/public-key-host/keys/ssh-rsa.pub
+curl -o epic-keys.json https://hasagar97.github.io/public-key-host/jwks/epic.json
 ```
 
 ### View Key Content
 
 ```bash
+# View SSH key
 curl https://hasagar97.github.io/public-key-host/keys/ssh-rsa.pub
+
+# View JWKS JSON
+curl https://hasagar97.github.io/public-key-host/jwks/epic.json
 ```
 
 ## ⚙️ Setting Up GitHub Pages
