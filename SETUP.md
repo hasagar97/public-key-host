@@ -38,10 +38,8 @@ Visit `https://hasagar97.github.io/public-key-host/` in your browser. You should
 
 Example:
 ```bash
-# Copy your SSH public key
+# Replace the placeholder with your SSH public key
 cat ~/.ssh/id_rsa.pub > keys/ssh-rsa.pub
-
-# Note: This replaces the placeholder. Use >> to append to existing file
 
 # Or add a new key type
 cat ~/.ssh/id_ed25519.pub > keys/ssh-ed25519.pub
