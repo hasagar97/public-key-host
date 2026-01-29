@@ -26,7 +26,7 @@ public-key-host/
 
 ## 📝 Usage Examples
 
-### Add SSH Key to Authorized Hosts
+### Add SSH Key to authorized_keys
 
 ```bash
 # Append key to authorized_keys
